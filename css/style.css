@@ -1,0 +1,81 @@
+/* RESET */
+body{overflow-x: hidden; font-family: 'Open Sans', sans-serif;}
+a:hover{text-decoration: none;}
+html, body {width: 100%;height: 100%;}
+
+/* HELPERS */
+.fweight{font-weight: 300;}
+
+/* Site */
+#backgroundSite{background: url(../images/background.png) no-repeat center center;height: 1705px;}
+#backgroundSite h1{color: #5694c8;}
+h1, h2, h3, h4{font-size: 50px; text-transform: uppercase; font-weight: 700; font-family: 'Open Sans', sans-serif !important;}
+h5{font-size: 40px; text-transform: uppercase; font-weight: 700; font-family: 'Open Sans', sans-serif !important;}
+h1 span, h2 span, h3 span, h4 span, h5 span{font-weight: 300 !important;}
+
+/* HEADER */
+#header{width: 100%; float: left; height: 280px; background: url(../images/header-menu.png) center center no-repeat; 
+		padding-top: 30px; font-family: 'Open Sans', sans-serif;}
+.logo{float: right;}
+#header .numero{margin-left: 50px;}
+#header span{display: block; font-size: 20px; color: #efefef;}
+#header .icon-phone{float: left; margin-right: 10px;}
+
+/***** BLOCO 1 *******/
+.title-box{width: 100%; float: left; margin-top: 100px;}
+.box-radius{border-radius: 360px; -webkit-border-radius: 360px; -moz-border-radius: 360px;}
+/* Esfera azul */
+.box-radius-blue{width: 250px; height: 250px; position: absolute; top: 250px; right: 190px; background: #95bcdd; z-index: 2;}
+.box-radius-blue img{position: absolute;left: calc(50% - 11px); top: 66%;}
+.box-radius-blue p{width: 100%; color: #fff; text-align: center; margin-top: 80px; font-size: 25px; font-weight: 300;}
+/* Esfera azul escuro (maior) */
+.box-radius-darkblue{width: 525px; height: 525px; position: absolute; right: 216px; background: #5694c8; z-index: 1;}
+.box-radius-darkblue p {width: 388px; float: left; font-size: 13px; font-weight: 300; color: #fff;  margin-top: 19%; margin-left: 74px;}
+.waves{width: 100%;height: 662px;background: url(../images/waves.png) no-repeat center 100%;}
+
+/***** BLOCO 2 *******/
+#background2{z-index: 3;position: absolute;width: 100%;height: 1036px;background: url(../images/background2.png) no-repeat center;margin-top: -600px;}
+.bloco2-content{padding-top: 300px;}
+.bloco2-content h2{color: #fff;}
+.bloco2-content .icon-shape{position:absolute; left: 35%;margin-top: 15px;}
+.bloco2-content p{margin-top: 80px;color: #fff;font-size: 15px;}
+.img-mask{border: 10px solid #fff;margin-top: 180px;}
+
+/***** BLOCO 3 *******/
+#background3{z-index: 0;width: 100%;height: 715px;background: url(../images/background3.jpg) no-repeat center;margin-top: 397px;}
+.bloco3-content{padding-top: 100px;}
+.bloco3-content h3{color: #5bc0ab;}
+.bloco3-content .icon-shape{width: auto; position: absolute; bottom: -70px; left: 30%;}
+.box-radius-green{width: 550px;height: 550px;top: 100px;position: absolute;background: #69c9b6;}
+.box-radius-green p{width: 350px;margin-left: 110px;margin-top: 90px; color: #fff; font-size: 13px;}
+.fisioterapia-box{position: absolute; top: 310px; left: -200px;}
+
+/***** BLOCO 4 *******/
+#background4{padding: 60px 0;}
+#background4 h4{color: #5694c8;}
+#background4 address{font-size: 22px;color: #949494;margin-top: 30px;font-weight: 300;margin-bottom: 60px;}
+.map-frame {width: 100%; height: 350px; position: relative;}
+
+/***** BLOCO 5 *******/
+#background5{background: #5694c8;margin-top: -60px;height: 70%;padding: 60px 0;}
+#background5 h5, #background5 p{color: #fff;}
+.boxform{padding: 40px 30px;background: #fff;position: absolute;width: 80%;top: -130px;left: 0;
+-webkit-box-shadow: -37px -39px 0px -20px rgba(86,148,200,0.1);
+-moz-box-shadow: -37px -39px 0px -20px rgba(86,148,200,0.1);
+box-shadow: -37px -39px 0px -20px rgba(86,148,200,0.1);;}
+
+#background5 input, #background5 textarea{box-shadow: 0 0 0 0; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; 
+	padding: 20px 10px !important; border: 1px solid #eee; color: #666; font-family: 'Open Sans', sans-serif;}
+#background5 input:focus, #background5 textarea:focus{outline: 1px solid #5694c8;}	
+#background5 button{font-size: 16px;padding: 20px 60px;font-family: 'Open Sans', sans-serif;background: #3f80c4;
+-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px; 
+-webkit-box-shadow: -23px -20px 24px -20px rgba(110,160,211,1);
+-moz-box-shadow: -23px -20px 24px -20px rgba(110,160,211,1);
+box-shadow: -23px -20px 24px -20px rgba(110,160,211,1); position: absolute;  z-index: 4;}
+.btn.disabled{ opacity: .85 !important;}
+#background5 button:focus{outline: 0;}
+
+/***** FOOTER *******/
+#footer{padding: 30px 0;}
+#footer p{float:right; font-weight: 300; color: #666; font-size: 16px; font-family: 'Open Sans', sans-serif;}
+#footer .rmc{float: left;margin-left: 107px;}
